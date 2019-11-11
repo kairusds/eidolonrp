@@ -5,7 +5,7 @@ import time
 import uuid
 
 print("start")
-bot = commands.Bot(command_prefix="|", self_bot=True)
+bot = commands.Bot(command_prefix="℅", self_bot=True)
 
 @bot.event
 async def on_ready():
