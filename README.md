@@ -8,6 +8,14 @@ A simple rich presence selfbot built with discord.py
 ## Preview
 ![preview](preview.jpg)
 
+# Where do I get the rich presence image IDs?
+<p>You can get these by right-clicking an asset image's icon and copying the URL in the Rich Presence > Art Assets section on the Discord Developer Portal.</p>
+<p>The URL should be something like this <code>https://cdn.discordapp.com/app-assets/632447779013458728/655561063797872711.png</code>[1]</p>
+<p>The first 18-digit string should be the app's ID <code>632447779013458728</code>, while the second 18-digit string <code>655561063797872711</code>, is the image's ID and it is what you need to input in the config.</p>
+* [1] <sub><sup>The 18-digit numbers are only an example and is generated with random.org</sup></sub>
+
+<sub>Video soon.</sub>
+
 # `config.ini`
 ```
 [user]
