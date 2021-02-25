@@ -11,6 +11,7 @@ Table of Contents
    * [Preview](#preview)
    * [Where do I get the rich presence image IDs?](#where-do-i-get-the-rich-presence-image-ids)
    * [config.ini](#configini)
+   * [Termux instructions](#termux-instructions)
 
 ## Preview
 ![mobile](pv_mobile.jpg)
@@ -54,3 +55,13 @@ url = https://twitch.tv/username
 # can only be online, idle or dnd to make the rich presence work
 status = online
 ```
+
+# Termux instructions
+1. Download Termux from F-Droid (you can also download from the play store but that's outdated) 
+Optional: download hacker keyboard from playstore so that moving is easier, though, vim has touch support so only use hacker keyboard if you are going to use nano instead
+2. Launch Termux and do `pkg upgrade && pkg install python git vim`
+3. Do `git clone https://github.com/kairusds/eidolonrp` to download this
+4. Then do `cd eidolonrp && pip install -r requirements.txt`
+5. Then edit the config file with `vim confing.ini` or if you are going to use hacker keyboard, `nano index.py`. Replace the text with your input as suggested in [config.ini](#configini).
+6. Finally, run the script with `python index.py`
+To exit, do CRTL+C or simply exit Termux
