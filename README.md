@@ -13,7 +13,8 @@ Table of Contents
    * [config.ini](#configini)
 
 ## Preview
-![preview](preview.jpg)
+![mobile](pv_mobile.jpg)
+![desktop](pv_desktop.jpg)
 
 # Where do I get the rich presence image IDs?
 <p>You can get these by right-clicking an asset image's icon and copying the URL in the Rich Presence > Art Assets section on the Discord Developer Portal.</p>
