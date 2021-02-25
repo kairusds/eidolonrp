@@ -45,7 +45,7 @@ async def on_ready():
 		activity_args["party"] = dict(id=str(uuid.uuid4()), size=[partysize, partymax])
 	
 	activity = discord.Activity(**activity_args)
-	await bot.change_presence(activity=activity, status=discord.Status.online)
+	await bot.change_presence(activity=activity, status=config["activity"]["status"])
 	print("Changed rich presence.")
 
 bot.run(config["user"]["token"], bot=False)

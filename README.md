@@ -26,7 +26,7 @@ size = 2
 maxsize = 2
 
 [activity]
-appid = your client id with rich presence assets
+appid = your client id
 name = header text
 state = third line
 details = second line
@@ -35,4 +35,6 @@ type = 0
 # change this if you're using streaming activity (experimental)
 # don't use an invalid url
 url = https://twitch.tv/username
+# can only be online, idle or dnd to make the rich presence work
+status = online
 ```
