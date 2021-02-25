@@ -5,6 +5,14 @@ A simple rich presence selfbot built with discord.py
 
 **Use at your own risk.**
 
+Table of Contents
+=================
+
+   * [eidolonrp](#eidolonrp)
+   * [Preview](#preview)
+   * [Where do I get the rich presence image IDs?](#where-do-i-get-the-rich-presence-image-ids)
+   * [config.ini](#configini)
+
 ## Preview
 ![preview](preview.jpg)
 
