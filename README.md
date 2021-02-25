@@ -1,22 +1,38 @@
 # eidolonrp
-A rich presence selfbot.
+A simple rich presence selfbot built with discord.py
 
-<table>
-<tr><th>ENV</th><th>ENV Description</th></tr>
-<tr><td>token*</th><td>user account token</td></tr>
-<tr><td>appid*</td><td>the application's id to use with its rich presence assets</td></tr>
-<tr><td>name*</td><td>header of the rich presence</td></tr>
-<tr><td>url</td><td>twitch stream url (only used when type=1)</td></tr>
-<tr><td>type*</td><td>(int) type of the activity. 0: playing, 1: streaming, 2: listening, 3: watching</td></tr>
-<tr><td>state*</td><td>second line of the rich presence</td></tr>
-<tr><td>details*</td><td>third line of the rich presence</td></tr>
-<tr><td>partysize*</td><td>(int) party members count</td></tr>
-<tr><td>partymax*</td><td>(int) max party members size</td></tr>
-<tr><td>largeimage*</td><td>rich presence asset large image id</td></tr>
-<tr><td>largetext*</td><td>text tip for the large image</td></tr>
-<tr><td>smallimage*</td><td>rich presence asset small image id</td></tr>
-<tr><td>smalltext*</td><td>text tip for the small image</td></tr>
-</table>
+**Python 3+ is required to run this script.**
+
+**Use at your own risk.**
 
 ## Preview
-![pv](pv.png)
+![preview](preview.jpg)
+
+# `config.ini`
+```
+[user]
+token = user account token
+
+[assets]
+largeimage = large image filename
+largetext = large image text tip
+smallimage = small image filename
+smalltext = small image text tip
+
+[party]
+# yes or no
+enabled = yes
+size = 2
+maxsize = 2
+
+[activity]
+appid = your client id with rich presence assets
+name = header text
+state = third line
+details = second line
+# 0: playing, 1: streaming, 2: listening, 3: watching, 4: custom, 5: competing
+type = 0
+# change this if you're using streaming activity (experimental)
+# don't use an invalid url
+url = https://twitch.tv/username
+```
