@@ -1,9 +1,7 @@
 # eidolonrp [![CodeFactor](https://www.codefactor.io/repository/github/kairusds/eidolonrp/badge)](https://www.codefactor.io/repository/github/kairusds/eidolonrp)
-A simple rich presence selfbot built with discord.py
+A simple rich presence changer built with discord.py
 
-**Python 3+ is required to run this script.**
-
-**Use at your own risk.**
+**Python 3.6+ is required to run this script.**
 
 Table of Contents
 =================
