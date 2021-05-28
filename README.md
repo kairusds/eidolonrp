@@ -1,3 +1,5 @@
+# DISCONTINUED. Discord API has banned the usage of user account tokens so this self-bot will not work anymore.
+
 # eidolonrp [![CodeFactor](https://www.codefactor.io/repository/github/kairusds/eidolonrp/badge)](https://www.codefactor.io/repository/github/kairusds/eidolonrp)
 A simple rich presence changer built with discord.py
 
